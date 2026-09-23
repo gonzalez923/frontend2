@@ -8,7 +8,7 @@ import { Empleado } from '../models/empleado';
 export class EmpleadoService {
     selectedEmpleado: Empleado = new Empleado();
     empleados: Empleado[] = [];
-    readonly URL_API = 'https://backend-2-nu.vercel.app/api/empleados';
+    readonly URL_API = 'https://backend53.vercel.app/api/empleados';
 
 
     constructor(private http: HttpClient) { }
